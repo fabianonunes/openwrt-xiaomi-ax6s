@@ -1,3 +1,16 @@
+
+# build
+
+To build, run:
+
+```bash
+./scripts/feeds update -a
+./scripts/feeds install -a
+make -j $(nproc)
+```
+
+# README.md
+
 ![OpenWrt logo](include/logo.png)
 
 OpenWrt Project is a Linux operating system targeting embedded devices. Instead
